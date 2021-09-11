@@ -1,0 +1,125 @@
+/*-----css structer here------*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: 'Niconne', cursive;
+	font-size: 30px;
+	line-height: 40px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Archivo Black', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}/*-----css structer here------*/
+h1{
+	font-size: 40px;
+	color: #FF0000;
+	margin: 40px 0px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	color: #1E6F5C;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+	margin: 80px 0px 0px 17%;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: #FF0000;
+	border-radius: 100%;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+
+}
+
+.ict{
+	width: 150px;
+	position: fixed;
+	top: 0%;
+	right: -79px;
+	transition: 1s;
+}
+.ict:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.share{
+	width: 120px;
+	position: fixed;
+	top: 76%;
+	right: -78px;
+	transition: 1s;
+}
+.share:hover{
+	right: -7px;
+	cursor: pointer;
+}
+.insta{
+	width: 135px;
+	position: fixed;
+	top: 80%;
+	right: -87px;
+	transition: 1s;
+}
+.insta:hover{
+	right: -10px;
+	cursor: pointer;
+}
+.social-media{
+	width: 100%;
+	background: black;
+	margin: 70px 0px 70px 0px;
+	padding: 60px 0px;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a .fa{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+	border-radius: 100px;
+	margin: 0px 15px;
+	transition: 1s;
+	background: green;
+	color: #FF0000;
+}		
+.social-icons li a .fa-facebook-square:hover , .social-icons li a .fa-facebook-square:focus{
+	background: #3b5998;
+	color: white;
+}
+.social-icons li a .fa-twitter-square:hover , .social-icons li a .fa-twitter-square:focus{
+	background:  #1DA1F2;
+	color: white;
+}
+.social-icons li a .fa-instagram:hover ,.social-icons li a .fa-instagram:focus{
+	background: #8a3ab9 ;
+	color: white;
+}
+.social-icons li a .fa-google-plus-square:hover , .social-icons li a .fa-google-plus-square:focus{
+	background:  #db4a39;
+	color: white;
+
+}
+.social-icons li a .fa-youtube-square:hover , .social-icons li a .fa-youtube-square:focus{
+	background: #c4302b;
+	color: white;
+
+}
